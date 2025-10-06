@@ -1,0 +1,62 @@
+# Ignore Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+# Ignore Windows desktop settings metadata
+Desktop.ini
+# Ignore Windows dump files
+*.stackdump
+
+# Common Editor/IDE files
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Visual Studio (often used on Windows)
+*.sln
+*.vcxproj.user
+*.suo
+*.user
+*.config
+*.log
+*.ncb
+*.aps
+*.pdb
+*.bak
+ipch/
+*.obj
+*.lib
+*.exe
+*.dll
+*.exp
+*.ilk
+
+# JetBrains IDEs (IntelliJ, WebStorm, etc.)
+.idea/
+
+# Build and Output Directories
+
+# Compiled binaries, logs, and other generated files
+[Dd]ebug/
+[Rr]elease/
+bin/
+obj/
+temp/
+out/
+dist/
+build/
+
+
+# Package Management (Common Web/App)
+
+# Node.js dependencies
+/node_modules
+
+# Python virtual environment
+venv/
+.venv/
