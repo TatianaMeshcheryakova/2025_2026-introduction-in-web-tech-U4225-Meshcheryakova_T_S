@@ -28,3 +28,21 @@ Date of finished: 03.10.2025
  * Создан и утвержден Pull Request, который успешно интегрировал все подготовленные файлы из develop в main.
  * Ветка develop была корректно удалена после слияния, что поддерживает чистоту репозитория.
    
+ 1. Подтверждение настройки окружения (SSH)
+
+![Скриншот настроенных SSH-ключей в аккаунте GitHub](2025_2026-introduction-in-web-tech-U4225-Meshcheryakova_T_S/lab0/2025-10-06_21-01-53.png)
+
+
+2. Создание репозитория и файлов (README, .gitignore)
+
+![Скриншот локального терминала или GitHub с файлами README.md и .gitignore](2025_2026-introduction-in-web-tech-U4225-Meshcheryakova_T_S/lab0/2025-10-06_20-59-05.png)
+
+
+3. Коммит и создание Pull Request
+
+![Скриншот создания или просмотра Pull Request из ветки develop в main](2025_2026-introduction-in-web-tech-U4225-Meshcheryakova_T_S/lab0/2025-10-06_21-02-05.png)
+
+
+ 4. Результат: Смерженный Pull Request и удаление ветки develop
+
+![Скриншот вкладки Commits или Pull Requests, показывающий, что ветка develop удалена, а PR смержен](2025_2026-introduction-in-web-tech-U4225-Meshcheryakova_T_S/lab0/2025-10-06_21-06-32.png)
