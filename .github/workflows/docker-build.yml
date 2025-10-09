@@ -24,11 +24,11 @@ jobs:
       - name: Build and Push Docker Image
         uses: docker/build-push-action@v5
         with:
-          context: . # Искать Dockerfile в текущей папке
-          push: true # Обязательно: Отправляем образ в Docker Hub
+          context: .
+          push: true 
           tags: tatianamescher/my-flask-app:latest
           
-      - name: Deployment Placeholder
+      - name: Deployment Placeholder 
         run: |
           echo "CI/CD Pipeline Completed Successfully."
           echo "Docker image tatianamescher/my-flask-app:latest published and ready!"
