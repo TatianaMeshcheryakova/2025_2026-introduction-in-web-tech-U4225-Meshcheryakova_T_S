@@ -1,0 +1,58 @@
+site_name: 'Персональный сайт | Татьяна Мещерякова'
+site_description: 'Портфолио и визитка, созданная с использованием MkDocs и Material Design.'
+site_author: 'Татьяна Мещерякова'
+site_url: 'https://tatianameshcheryakova.github.io/my-personal-site/'
+repo_url: 'https://github.com/TatianaMeshcheryakova/2025_2026-introduction-in-web-tech-U4225-Meshcheryakova_T_S'
+
+# --- Настройка Темы Material (Пастельно-розовая схема) ---
+theme:
+  name: material
+  language: ru
+  scheme: default
+  custom_dir: docs/overrides
+  # ИСПРАВЛЕНО: Теперь используем logo.jpg, как вы указали
+  logo: assets/logo.jpg 
+  favicon: assets/logo.jpg 
+  palette:
+    primary: pink
+    accent: light blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - header.autohide
+
+# --- Структура Навигации (Меню) ---
+nav:
+  - Главная: index.md
+  - Обо мне: about.md
+  - Навыки и Опыт: skills.md
+  - Проекты: projects.md
+  - Контакты: contacts.md
+
+# --- Расширения Markdown ---
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+# --- Настройка Футера и Дополнительные ссылки (Обновлено) ---
+extra:
+  social:
+    # Оставляем GitHub
+    - icon: fontawesome/brands/github
+      link: https://github.com/TatianaMeshcheryakova
+    # Добавляем Telegram с указанным адресом
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/tmescher
+  
+  footer_text: "© 2025 Татьяна Мещерякова | Создано на MkDocs + Material."
