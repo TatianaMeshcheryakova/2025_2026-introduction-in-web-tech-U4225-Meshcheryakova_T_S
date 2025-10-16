@@ -1,0 +1,6 @@
+/* Применение пастельно-розового цвета для шапки и основных элементов */
+:root {
+    --md-primary-fg-color: #f7b5c0; /* Светло-розовый */
+    --md-primary-fg-color--light: #ffc9d2;
+    --md-primary-fg-color--dark: #e8a0ad;
+}
